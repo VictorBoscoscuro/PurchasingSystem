@@ -11,6 +11,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
 import purchasingsystem.connections.MyConnectionPSDB;
+import purchasingsystem.proveedores.ProveedoresChooseForm;
 
 /**
  *
@@ -185,7 +186,9 @@ public class UserMainForm extends javax.swing.JFrame {
     }//GEN-LAST:event_btnInformesCCActionPerformed
 
     private void btnProveedoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProveedoresActionPerformed
-        // TODO add your handling code here:
+        ProveedoresChooseForm form = new ProveedoresChooseForm(id_username_login);
+        form.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_btnProveedoresActionPerformed
 
     /**

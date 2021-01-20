@@ -25,6 +25,7 @@ public class ProveedoresChooseForm extends javax.swing.JFrame {
     public ProveedoresChooseForm(Long id_username_login) {
         initComponents();
         this.id_username_login = id_username_login;
+        setLocationRelativeTo(null);
     }
 
     /**
