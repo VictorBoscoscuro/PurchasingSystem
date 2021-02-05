@@ -65,7 +65,7 @@
                               <Component id="btnAddSuppliers" min="-2" pref="201" max="-2" attributes="0"/>
                               <Component id="btnUpdateSuppliers" min="-2" pref="201" max="-2" attributes="0"/>
                               <Component id="btnDeleteSuppliers" alignment="0" min="-2" pref="201" max="-2" attributes="0"/>
-                              <Component id="btnListSuppliers" alignment="0" min="-2" pref="201" max="-2" attributes="0"/>
+                              <Component id="btnSupplierArticle" alignment="0" min="-2" pref="201" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -85,7 +85,7 @@
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="btnDeleteSuppliers" min="-2" pref="45" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="btnListSuppliers" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="btnSupplierArticle" min="-2" pref="45" max="-2" attributes="0"/>
                   <EmptySpace pref="48" max="32767" attributes="0"/>
                   <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
@@ -136,12 +136,12 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDeleteSuppliersActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="btnListSuppliers">
+        <Component class="javax.swing.JButton" name="btnSupplierArticle">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Ver Proveedores"/>
+            <Property name="text" type="java.lang.String" value="Art&#xed;culos prove&#xed;dos"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnListSuppliersActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSupplierArticleActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>

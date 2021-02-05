@@ -11,18 +11,18 @@ import purchasingsystem.main.UserMainForm;
  *
  * @author victo
  */
-public class ProveedoresChooseForm extends javax.swing.JFrame {
+public class SuppliersChooseForm extends javax.swing.JFrame {
 
     /**
      * Creates new form ProveedoresChooseForm
      */
-    public ProveedoresChooseForm() {
+    public SuppliersChooseForm() {
         initComponents();
     }
     
     private Long id_username_login;
     
-    public ProveedoresChooseForm(Long id_username_login) {
+    public SuppliersChooseForm(Long id_username_login) {
         initComponents();
         this.id_username_login = id_username_login;
         setLocationRelativeTo(null);
@@ -43,7 +43,7 @@ public class ProveedoresChooseForm extends javax.swing.JFrame {
         lblSuppliersTitle = new javax.swing.JLabel();
         btnAddSuppliers = new javax.swing.JButton();
         btnDeleteSuppliers = new javax.swing.JButton();
-        btnListSuppliers = new javax.swing.JButton();
+        btnSupplierArticle = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -80,10 +80,10 @@ public class ProveedoresChooseForm extends javax.swing.JFrame {
             }
         });
 
-        btnListSuppliers.setText("Ver Proveedores");
-        btnListSuppliers.addActionListener(new java.awt.event.ActionListener() {
+        btnSupplierArticle.setText("Artículos proveídos");
+        btnSupplierArticle.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnListSuppliersActionPerformed(evt);
+                btnSupplierArticleActionPerformed(evt);
             }
         });
 
@@ -105,7 +105,7 @@ public class ProveedoresChooseForm extends javax.swing.JFrame {
                             .addComponent(btnAddSuppliers, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnUpdateSuppliers, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnDeleteSuppliers, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnListSuppliers, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(btnSupplierArticle, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(80, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -120,7 +120,7 @@ public class ProveedoresChooseForm extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(btnDeleteSuppliers, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(btnListSuppliers, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnSupplierArticle, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
                 .addComponent(jLabel1)
                 .addContainerGap())
@@ -156,9 +156,9 @@ public class ProveedoresChooseForm extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btnDeleteSuppliersActionPerformed
 
-    private void btnListSuppliersActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnListSuppliersActionPerformed
+    private void btnSupplierArticleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSupplierArticleActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btnListSuppliersActionPerformed
+    }//GEN-LAST:event_btnSupplierArticleActionPerformed
 
     private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
         UserMainForm form = new UserMainForm();
@@ -183,20 +183,21 @@ public class ProveedoresChooseForm extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(ProveedoresChooseForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SuppliersChooseForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(ProveedoresChooseForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SuppliersChooseForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(ProveedoresChooseForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SuppliersChooseForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(ProveedoresChooseForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SuppliersChooseForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new ProveedoresChooseForm().setVisible(true);
+                new SuppliersChooseForm().setVisible(true);
             }
         });
     }
@@ -204,7 +205,7 @@ public class ProveedoresChooseForm extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAddSuppliers;
     private javax.swing.JButton btnDeleteSuppliers;
-    private javax.swing.JButton btnListSuppliers;
+    private javax.swing.JButton btnSupplierArticle;
     private javax.swing.JButton btnUpdateSuppliers;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;

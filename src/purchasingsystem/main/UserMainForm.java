@@ -10,8 +10,9 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
+import purchasingsystem.articulos.ArticlesChooseForm;
 import purchasingsystem.connections.MyConnectionPSDB;
-import purchasingsystem.proveedores.ProveedoresChooseForm;
+import purchasingsystem.proveedores.SuppliersChooseForm;
 
 /**
  *
@@ -118,6 +119,11 @@ public class UserMainForm extends javax.swing.JFrame {
         btnArticulos.setForeground(new java.awt.Color(255, 255, 255));
         btnArticulos.setText("Artículos");
         btnArticulos.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        btnArticulos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnArticulosActionPerformed(evt);
+            }
+        });
         jPanel1.add(btnArticulos, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 100, 170, 60));
 
         backImgLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/purchasingsystem/img/backMain.jpg"))); // NOI18N
@@ -186,10 +192,16 @@ public class UserMainForm extends javax.swing.JFrame {
     }//GEN-LAST:event_btnInformesCCActionPerformed
 
     private void btnProveedoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProveedoresActionPerformed
-        ProveedoresChooseForm form = new ProveedoresChooseForm(id_username_login);
+        SuppliersChooseForm form = new SuppliersChooseForm(id_username_login);
         form.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_btnProveedoresActionPerformed
+
+    private void btnArticulosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnArticulosActionPerformed
+        ArticlesChooseForm form = new ArticlesChooseForm(id_username_login);
+        form.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnArticulosActionPerformed
 
     /**
      * @param args the command line arguments
