@@ -3,20 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/victo/Documents/NetBeansProjects/PurchasingSystem/src/purchasingsystem/articulos/DeleteArticlesForm.java</file>
-            <file>file:/C:/Users/victo/Documents/NetBeansProjects/PurchasingSystem/src/purchasingsystem/PurchasingSystem.java</file>
-            <file>file:/C:/Users/victo/Documents/NetBeansProjects/PurchasingSystem/src/purchasingsystem/articulos/SeeArticlesForm.java</file>
-            <file>file:/C:/Users/victo/Documents/NetBeansProjects/PurchasingSystem/src/purchasingsystem/main/AdminChooseForm.java</file>
-            <file>file:/C:/Users/victo/Documents/NetBeansProjects/PurchasingSystem/src/purchasingsystem/proveedores/AddSupplierForm.java</file>
             <file>file:/C:/Users/victo/Documents/NetBeansProjects/PurchasingSystem/src/purchasingsystem/articulos/CategorysForm.java</file>
             <file>file:/C:/Users/victo/Documents/NetBeansProjects/PurchasingSystem/src/purchasingsystem/main/UserMainForm.java</file>
             <file>file:/C:/Users/victo/Documents/NetBeansProjects/PurchasingSystem/src/purchasingsystem/proveedores/SuppliersChooseForm.java</file>
-            <file>file:/C:/Users/victo/Documents/NetBeansProjects/PurchasingSystem/src/purchasingsystem/articulos/AddArticleForm.java</file>
             <file>file:/C:/Users/victo/Documents/NetBeansProjects/PurchasingSystem/src/purchasingsystem/articulos/ArticlesChooseForm.java</file>
-            <file>file:/C:/Users/victo/Documents/NetBeansProjects/PurchasingSystem/src/purchasingsystem/connections/MyConnectionPSDB.java</file>
+            <file>file:/C:/Users/victo/Documents/NetBeansProjects/PurchasingSystem/src/purchasingsystem/PurchasingSystem.java</file>
             <file>file:/C:/Users/victo/Documents/NetBeansProjects/PurchasingSystem/src/purchasingsystem/login/LoginForm.java</file>
-            <file>file:/C:/Users/victo/Documents/NetBeansProjects/PurchasingSystem/src/purchasingsystem/articulos/UpdateArticlesForm.java</file>
             <file>file:/C:/Users/victo/Documents/NetBeansProjects/PurchasingSystem/src/purchasingsystem/utils/SearchCityForm.java</file>
+            <file>file:/C:/Users/victo/Documents/NetBeansProjects/PurchasingSystem/src/purchasingsystem/main/AdminChooseForm.java</file>
+            <file>file:/C:/Users/victo/Documents/NetBeansProjects/PurchasingSystem/src/purchasingsystem/proveedores/AddSupplierForm.java</file>
         </group>
     </open-files>
 </project-private>
